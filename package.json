@@ -1,0 +1,21 @@
+{
+  "name": "d3-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync start -s -f index.html src --no-ui --no-notify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leap-academy/d3-playground.git"
+  },
+  "author": "Adam Hurst",
+  "keywords": [],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leap-academy/d3-playground/issues"
+  },
+  "homepage": "https://github.com/leap-academy/d3-playground#readme",
+  "devDependencies": {}
+}

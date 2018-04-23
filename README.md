@@ -18,4 +18,4 @@ npm install -g browser-sync
 ```sh
 npm start
 ```
-[http://localhost:3000/](http://localhost:3000/) should now open up the page in your default browser. If you now edit `index.html` or `src/app.js`, those changes will be reflected immediately
+[http://localhost:3000/](http://localhost:3000/) should now open up the page in your default browser. If you now edit `index.html` or `app.js`, those changes will be reflected immediately
