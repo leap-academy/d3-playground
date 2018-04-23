@@ -1,5 +1,21 @@
-## D3v4 Playground - Building interactive data visualisations
+# Getting Started with D3v4
 
-![N|Solid](https://camo.githubusercontent.com/722a5cc12c7d40231ebeb8ca6facdc8547e2abf7/68747470733a2f2f64336a732e6f72672f6c6f676f2e737667)
+### Requirements
+You'll need to install these before we can get started:
 
-This repository is home to all the code examples and tutorials for the Udemy Course: "Interactive data visualisations". Each branch contains the contents for each lesson and the name corresponds to the lesson name.
+* Git: [Installation Instructions](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+* NodeJS: [Installation Instructions](https://nodejs.org/en/)
+
+### Installation
+```sh
+git clone https://github.com/leap-academy/d3-playground
+cd d3-playground
+git checkout -b 01-getting-started
+npm install -g browser-sync
+```
+
+### Getting Started
+```sh
+npm start
+```
+[http://localhost:3000/](http://localhost:3000/) should now open up the page in your default browser. If you now edit `index.html` or `src/app.js`, those changes will be reflected immediately
